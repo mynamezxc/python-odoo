@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <!-- Category -->
+        <record id="ts24_module_post_act" model="ir.actions.act_window">
+            <!-- Tiêu đề trang -->
+            <field name="name">Post manager</field>
+            <!-- Loại actions -->
+            <field name="type">ir.actions.act_window</field>
+            <!-- Model sử dụng cho trang này -->
+            <field name="res_model">ts24_module.visitor</field>
+            <!-- Các loại view có thể switch -->
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <!-- Nội dung ở giữa trang -->
+                <p class="oe_view_nocontent_create">
+                    Create and control posts
+                </p>
+            </field>
+        </record>
+
+        <!-- Author -->
+        <record id="ts24_module_author_act" model="ir.actions.act_window">
+            <!-- Tiêu đề trang -->
+            <field name="name">Author manager</field>
+            <!-- Loại actions -->
+            <field name="type">ir.actions.act_window</field>
+            <!-- Model sử dụng cho trang này -->
+            <field name="res_model">ts24_module.author</field>
+            <!-- Các loại view có thể switch -->
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <!-- Nội dung ở giữa trang -->
+                <p class="oe_view_nocontent_create">
+                    Create and control authors
+                </p>
+            </field>
+        </record>
+
+        <!-- Category -->
+        <record id="ts24_module_category_act" model="ir.actions.act_window">
+            <!-- Tiêu đề trang -->
+            <field name="name">Category manager</field>
+            <!-- Loại actions -->
+            <field name="type">ir.actions.act_window</field>
+            <!-- Model sử dụng cho trang này -->
+            <field name="res_model">ts24_module.category</field>
+            <!-- Các loại view có thể switch -->
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <!-- Nội dung ở giữa trang -->
+                <p class="oe_view_nocontent_create">
+                    Create and control categories
+                </p>
+            </field>
+        </record>
+
+        <!-- Dùng group_no_one và access.csv để tạo menu -->
+        <menuitem id="post_manager_menu" name="Post manager" sequence="1" groups="base.group_user"/>
+            <!-- Submenu -->
+            <menuitem id="post_manager_sub1" name="Posts" parent="post_manager_menu" action="ts24_module_post_act" sequence="3" groups="base.group_user"/>
+            <menuitem id="post_manager_sub2" name="Authors" parent="post_manager_menu" action="ts24_module_author_act" sequence="2" groups="base.group_user"/>
+            <menuitem id="post_manager_sub3" name="Categories" parent="post_manager_menu" action="ts24_module_category_act" sequence="1" groups="base.group_user"/>
+
+    </data>
+</odoo>

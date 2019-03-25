@@ -5,18 +5,18 @@
 #  * @Last Modified time: 2019-03-22 16:35:35 
 
 {
-    "name": "TS24 visitor",
+    "name": "TS24 post manager",
     "summary":
     """
-    Create and control all visitor into your company
+    Create and control post, post category, author
     """,
     "version": "1.0",
     "author": "TS24 Corp",
     "maintainer": "Mynamezxc (Nguyen Hoang Nguyen)",
-    "category": "Visitor",
+    "category": "Post",
     "depends": ['base'],
     'data': [
-        'views/visitor.xml',
+        'views/view.xml',
         'security/ir.model.access.csv',
     ],
     'demo': [],

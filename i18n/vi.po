@@ -1,0 +1,273 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * mynamezxc_module
+# 
+# Translators:
+# thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
+# Martin Trigaux, 2018
+# fanha99 <fanha99@hotmail.com>, 2018
+# Duy BQ <duybq86@gmail.com>, 2018
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~11.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-21 13:17+0000\n"
+"PO-Revision-Date: 2018-08-24 09:20+0000\n"
+"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
+"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module__campaign_id
+msgid "Campaign"
+msgstr "Chiến dịch"
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module__link_click_ids
+#: model_terms:ir.ui.view,arch_db:mynamezxc_module.view_mynamezxc_module_form
+msgid "Clicks"
+msgstr ""
+
+#. module: mynamezxc_module
+#: sql_constraint:mynamezxc.module.code:0
+msgid "Code must be unique."
+msgstr ""
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module__link_code_ids
+msgid "Codes"
+msgstr "Mã"
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module_click__country_id
+msgid "Country"
+msgstr "Quốc gia"
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module_click__click_date
+msgid "Create Date"
+msgstr "Ngày tạo"
+
+#. module: mynamezxc_module
+#: model_terms:ir.actions.act_window,help:mynamezxc_module.action_mynamezxc_module
+msgid "Create a new Mynamezxc Module"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module__create_uid
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module_click__create_uid
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module_code__create_uid
+msgid "Created by"
+msgstr "Được tạo bởi"
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module__create_date
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module_click__create_date
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module_code__create_date
+msgid "Created on"
+msgstr "Thời điểm tạo"
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module__display_name
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module_click__display_name
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module_code__display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module__favicon
+msgid "Favicon"
+msgstr "Biểu tượng"
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module__icon_src
+msgid "Favicon Source"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module__short_url_host
+msgid "Host of the short URL"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module__id
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module_click__id
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module_code__id
+msgid "ID"
+msgstr "ID"
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module_click__ip
+msgid "Internet Protocol"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module____last_update
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module_click____last_update
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module_code____last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối vào"
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module__write_uid
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module_click__write_uid
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module_code__write_uid
+msgid "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module__write_date
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module_click__write_date
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module_code__write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module_click__link_id
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module_code__link_id
+msgid "Link"
+msgstr "Liên kết"
+
+#. module: mynamezxc_module
+#: model:ir.actions.act_window,name:mynamezxc_module.action_mynamezxc_module
+#: model:ir.model,name:mynamezxc_module.model_mynamezxc_module
+#: model:ir.ui.menu,name:mynamezxc_module.menu_url_shortener_main
+msgid "Mynamezxc Module"
+msgstr "Kiểm soát đường dẫn"
+
+#. module: mynamezxc_module
+#: model:ir.model,name:mynamezxc_module.model_mynamezxc_module_click
+msgid "Mynamezxc Module Click"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model:ir.model,name:mynamezxc_module.model_mynamezxc_module_code
+msgid "Mynamezxc Module Code"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module__medium_id
+msgid "Medium"
+msgstr "Kênh / Medium"
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module__count
+msgid "Number of Clicks"
+msgstr "Số lượng Click"
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module__title
+msgid "Page Title"
+msgstr "Tiêu đề trang"
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module__redirected_url
+msgid "Redirected URL"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module_code__code
+msgid "Short URL Code"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module__code
+msgid "Short URL code"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module__source_id
+msgid "Source"
+msgstr "Nguồn"
+
+#. module: mynamezxc_module
+#: model:ir.actions.act_window,name:mynamezxc_module.action_view_click_statistics
+msgid "Statistics of Clicks"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module__url
+msgid "Target URL"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,help:mynamezxc_module.field_mynamezxc_module__campaign_id
+msgid ""
+"This is a name that helps you keep track of your different campaign efforts,"
+" e.g. Fall_Drive, Christmas_Special"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,help:mynamezxc_module.field_mynamezxc_module__medium_id
+msgid "This is the method of delivery, e.g. Postcard, Email, or Banner Ad"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,help:mynamezxc_module.field_mynamezxc_module__source_id
+msgid ""
+"This is the source of the link, e.g. Search Engine, another domain, or name "
+"of email list"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model_terms:ir.ui.view,arch_db:mynamezxc_module.view_mynamezxc_module_filter
+msgid "Title and URL"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model_terms:ir.ui.view,arch_db:mynamezxc_module.view_mynamezxc_module_filter
+msgid "Tracked Link"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model:ir.model.fields,field_description:mynamezxc_module.field_mynamezxc_module__short_url
+msgid "Tracked URL"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model_terms:ir.ui.view,arch_db:mynamezxc_module.view_mynamezxc_module_form
+msgid "Visit Page"
+msgstr ""
+
+#. module: mynamezxc_module
+#: code:addons/mynamezxc_module/models/mynamezxc_module.py:142
+#, python-format
+msgid "Visit Webpage"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model_terms:ir.ui.view,arch_db:mynamezxc_module.view_mynamezxc_module_form
+msgid "Website Link"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model_terms:ir.ui.view,arch_db:mynamezxc_module.view_mynamezxc_module_click_form
+#: model_terms:ir.ui.view,arch_db:mynamezxc_module.view_mynamezxc_module_click_graph
+msgid "Website Link Clicks"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model_terms:ir.ui.view,arch_db:mynamezxc_module.view_mynamezxc_module_form_stats
+msgid "Website Link Graph"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model_terms:ir.ui.view,arch_db:mynamezxc_module.view_mynamezxc_module_graph
+#: model_terms:ir.ui.view,arch_db:mynamezxc_module.view_mynamezxc_module_tree
+msgid "Website Links"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model_terms:ir.ui.view,arch_db:mynamezxc_module.view_mynamezxc_module_click_tree
+msgid "Website Links Clicks"
+msgstr ""
+
+#. module: mynamezxc_module
+#: model:ir.actions.act_window,name:mynamezxc_module.action_mynamezxc_module_stats
+msgid "mynamezxc.module.form.graph.action"
+msgstr ""

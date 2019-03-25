@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <!-- Loại thêm xóa sửa cơ bản -->
+        <record id="ts24_module_visitor_act" model="ir.actions.act_window">
+            <!-- Tiêu đề trang -->
+            <field name="name">Visitor manager 1</field>
+            <!-- Loại actions -->
+            <field name="type">ir.actions.act_window</field>
+            <!-- Model sử dụng cho trang này -->
+            <field name="res_model">ts24_module.visitor</field>
+            <!-- Các loại view có thể switch -->
+            <field name="view_mode">kanban,tree,form</field>
+            <field name="help" type="html">
+                <!-- Nội dung ở giữa trang -->
+                <p class="oe_view_nocontent_create">
+                    this is a help text
+                </p>
+            </field>
+        </record>
+
+        <!-- <record model="ir.ui.view" id="ts24_module_visitor_treeview" id="visitor_treeview">
+            <field name="name">Visitor tree view</field>
+            <field name="model">ts24_module.visitor</field>
+            <field name="arch" type="xml">
+                <tree string="visit tree">
+                    <field name="name"/>
+                    <field name="card_id"/>
+                    <field name="checkin_time"/>
+                    <field name="leave_time"/>
+                </tree>
+            </field>
+        </record> -->
+
+
+        <!-- Dùng group_no_one và access.csv để tạo menu -->
+        <menuitem id="visit_menu" name="Visitor manager" sequence="1" groups="base.group_user"/>
+            <!-- Submenu -->
+            <menuitem id="visit_menu_sub1" name="Visitor" parent="visit_menu" action="ts24_module_visitor_act" sequence="1" groups="base.group_user"/>
+
+    </data>
+</odoo>
